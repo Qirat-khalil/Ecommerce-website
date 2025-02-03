@@ -1,0 +1,291 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: 0;
+}
+body{
+    background-color: rgb(201, 153, 206);
+}
+
+.main{
+    padding: 10px;
+}
+.logosec{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 10px; 
+}
+
+.center-nav{
+    align-items: center;
+}
+.nav-inp{
+    padding: 14px;
+    border-radius: 8px;
+    display: flex;   
+    width: 90%;
+    margin: auto;
+    border: 2px solid black;
+    margin-bottom: 30px;
+    justify-content: space-between;
+}
+.nav-inp input{
+    border: none;
+    background-color: transparent;
+    outline: none;
+    margin-left: 5px;
+}
+
+.sign-icon i{
+    color: blue;
+}
+
+.sign-icon{
+    display: flex;
+    gap: 25px;
+    justify-content: center;
+    font-family: sans-serif;
+    font-size: large;
+    color: rgb(14, 13, 13);
+    /* align-items: start; */
+}
+
+.main1{
+    /* background-color: aqua; */
+}
+.second-nav{
+    /* background-color: rgb(177, 225, 253); */
+    display: flex;
+    justify-content: center;
+    gap: 4px;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+.second-nav{
+    background-color: transparent;
+}
+
+
+.main2{
+    /* background-color: rgb(21, 22, 71); */
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 250px;
+    /* color: black; */
+    /* align-items: start; */
+}
+.left-sec{
+  padding: 25px;
+}
+ .main3{
+     /* background-color: brown; */
+     padding: 25px;
+ }
+ .main3 h2{
+    margin-left: 75px;
+ }
+.mob-images{
+    padding: 25px;
+    display: flex;
+    justify-content: center;
+    /* flex-wrap: wrap; */
+    gap: 5px;
+}
+
+.main4{
+     /* background-color: rgb(48, 121, 97); */
+     padding: 25px;
+}
+
+.catg-img{
+   /* background-color: rgb(99, 40, 72); */
+   display: flex;
+   justify-content: center;
+   gap: 25px;
+   /* padding: 25px; */
+}
+.main4 h2{
+    margin-left: 75px;
+    /* padding: 25px; */
+    
+}
+.img1{
+    text-align: center;
+    margin-top: 10px;
+}
+
+.img1 img{ 
+    background-color: transparent;
+    border-radius: 50%;
+    padding: 15px;
+}
+
+
+.one img{
+    /* height: 85px; */
+    width: 70px;
+}
+
+.two img{
+    /* height: 85px; */
+    width: 70px;
+}
+
+.four img{
+    width: 135px;
+}
+
+.five img{
+    /* height: 85px; */
+    width: 135px;
+}
+.six img{
+    width: 135px;
+}
+
+.seven img{
+    width: 135px;
+}
+
+.main5{
+    /* background-color: aqua; */
+    padding: 25px;
+}
+.main5 h2{
+    margin-left: 75px;
+}
+
+.mob-brand{
+    padding: 25px;
+    display: flex;
+    justify-content: center;
+    margin-left: 35px;
+    gap: 10px;
+}
+.mob-brand img{
+    width: 385px;
+}
+
+.main6{
+    /* background-color: rgb(64, 64, 85); */
+   padding: 25px;
+}
+.main6 h2{
+  margin-left: 75px;
+}
+
+.fruit-img{
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    /* border-radius: 8px; */
+}
+
+.fruit-img img{
+    background-color: rgb(117, 112, 112);
+    
+    border-radius: 8px;
+}
+
+.fru1{
+    margin-top: 12px;
+    text-align: center;
+}
+
+.fru1 img{
+padding: 20px;
+}
+
+.fru2{
+    margin-top: 12px;
+    text-align: center;
+}
+
+.fru3{
+    margin-top: 15px;
+    text-align: center;
+}
+.fru3 img{
+    padding: 4px;
+}
+
+.fru4{
+    margin-top: 15px;
+    text-align: center;
+}
+
+.fru4 img{
+    padding: 30px;
+    /* height: 145px; */
+}
+
+.fru5{
+    margin-top: 15px;
+    text-align: center;
+}
+
+.fru5 img{
+    padding: 7px;
+    /* height: 145px; */
+}
+
+.fru6{
+    margin-top: 15px;
+    text-align: center;
+}
+
+.fru6 img{
+    padding: 13px;
+    /* height: 145px; */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* @media screen and (min-width: 768px){
+    .center-nav{
+        display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 30px;
+    }
+    .nav-inp{
+        margin-bottom: 0;
+        width: 350px !important;
+        }
+        .nav-inp input{
+    margin: 0 40px 0px 10px;  
+        }
+        .logosec{
+margin-bottom: 20px;
+        }
+}
+
+@media screen and (min-width: 1024px){
+    .main{
+        display: flex;
+        justify-content: space-around;
+    }
+    .nav-inp input{
+    margin-right: 80px;
+    }
+    .logosec{
+        margin-bottom: 0px;
+    }
+    .main{
+        padding: 30px;
+    }
+} */

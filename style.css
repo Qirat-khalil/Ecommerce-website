@@ -3,7 +3,7 @@
     margin: 0;
     box-sizing: 0;
 }
-body{
+.start-main{
     background-color: rgb(201, 153, 206);
 }
 
@@ -75,8 +75,7 @@ body{
     justify-content: center;
     flex-wrap: wrap;
     gap: 250px;
-    /* color: black; */
-    /* align-items: start; */
+   
 }
 .left-sec{
   padding: 25px;
@@ -92,7 +91,6 @@ body{
     padding: 25px;
     display: flex;
     justify-content: center;
-    /* flex-wrap: wrap; */
     gap: 5px;
 }
 
@@ -106,12 +104,11 @@ body{
    display: flex;
    justify-content: center;
    gap: 25px;
-   /* padding: 25px; */
+   
 }
 .main4 h2{
     margin-left: 75px;
-    /* padding: 25px; */
-    
+
 }
 .img1{
     text-align: center;
@@ -153,6 +150,7 @@ body{
 
 .main5{
     /* background-color: aqua; */
+  
     padding: 25px;
 }
 .main5 h2{
@@ -160,10 +158,9 @@ body{
 }
 
 .mob-brand{
-    padding: 25px;
+    padding: 35px;
     display: flex;
     justify-content: center;
-    margin-left: 35px;
     gap: 10px;
 }
 .mob-brand img{
@@ -179,11 +176,10 @@ body{
 }
 
 .fruit-img{
-    padding: 10px;
+    padding: 25px;
     display: flex;
     justify-content: center;
     gap: 8px;
-    /* border-radius: 8px; */
 }
 
 .fruit-img img{
@@ -243,49 +239,34 @@ padding: 20px;
     padding: 13px;
     /* height: 145px; */
 }
-
-
-
-
-
-
-
-
-
-
-
-
-/* @media screen and (min-width: 768px){
-    .center-nav{
-        display: flex;
-    justify-content: space-around;
-    align-items: center;
-    gap: 30px;
-    }
-    .nav-inp{
-        margin-bottom: 0;
-        width: 350px !important;
-        }
-        .nav-inp input{
-    margin: 0 40px 0px 10px;  
-        }
-        .logosec{
-margin-bottom: 20px;
-        }
+ 
+.main7{
+    background-color: rgb(46, 115, 194);
 }
 
-@media screen and (min-width: 1024px){
-    .main{
-        display: flex;
-        justify-content: space-around;
-    }
-    .nav-inp input{
-    margin-right: 80px;
-    }
-    .logosec{
-        margin-bottom: 0px;
-    }
-    .main{
-        padding: 30px;
-    }
-} */
+.footer{
+    display: flex;
+    justify-content: space-around;
+    padding: 25px;
+    flex-wrap: wrap;
+    color: white;
+}
+.foot1 h4 {
+    margin-top: 10px;
+}
+.foot1 p {
+    margin-top: 10px;
+}
+.last{
+    padding: 25px;
+    text-align: center;
+}
+
+.foot1 img{
+    margin-top: 10px;
+    
+}
+
+ul li{
+    margin-top: 10px;
+}

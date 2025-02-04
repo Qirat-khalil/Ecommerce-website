@@ -93,4 +93,16 @@ margin-bottom: 20px;
     }
 }
 
+@media screen and (max-width: 625px){
+    .main7{
+    width: 100%;
+      
+    }
+}
 
+@media screen and (max-width: 605px){
+      .foot2{
+        margin-top: 10px;
+        
+      }
+}
